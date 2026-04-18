@@ -1,4 +1,6 @@
-# Yandex погода
+! Title: RU web-apps
+! Expires: 2 days
+! # Яндекс погода
 mail.yandex.com##.Orb-Button_view_brand.Orb-Button_size_xs.Orb-Button
 mail.yandex.com##.PopupAggressivePromoApps-m__root--krypa
 mail.yandex.com##.styles-m__wrapper--3MjMF.sidebarPromo
