@@ -1,20 +1,18 @@
-! Title: RU Web Apps
+! Title: Russian WebApps
 ! Last modified: %timestamp%
-! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
-! Homepage: https://forums.lanik.us/viewforum.php?f=102
+! Expires: 1 days
+! Homepage: https://github.com/mitsuha44/russian-web-apps-adblock
 !
-! Комбинированная версия списков фильтров RU AdList против рекламы
-! и экспериментальных списков RU AdList CSS Fixes и RU AdList JS Fixes
-! На данный момент нормально работает только в uBlock Origin
+! Специальные правила блокировки рекламы, ненужных опций, кнопок "скачать приложение" в Российских вэб-приложениях.
+! Фокус на работу в браузере Brave
 !
-! --- RU AdList Classic ---
-mail.yandex.ru##.Orb-Button_view_brand.Orb-Button_size_xs.Orb-Button
-mail.yandex.ru##.PopupAggressivePromoApps-m__root--krypa
-mail.yandex.ru##.PopupAggressivePromoApps-m__body--3cZ4U
-mail.yandex.ru##.styles-m__wrapper--3MjMF.sidebarPromo
-mail.yandex.ru##a.leftPanelItem-link:nth-of-type(4)
-yandex.ru##article:nth-of-type(2)
-yandex.ru##.AppFact_aliceChat__gUNof.AliceChat_scroll_common__lfxMc.AliceChat_scroll__t2p_0.AppScroll_wrapper__NYfou
-yandex.ru##.AppWidgetNowcast_container_logo__3siSt
-yandex.ru##.common_horizontalScroll__z_Fr1.MainDetailsLinks_wrapper__57QXV
-yandex.ru##.AppLayoutTypeMain_bottomContent__AHhG5
+! --- Yandex ---
+yandex.ru,yandex.com##[class*="AppFact_aliceChat"]
+yandex.ru,yandex.com##[class*="AliceChat_scroll"]
+yandex.ru,yandex.com##[class*="AppLayoutTypeMain"]
+! --- Yandex Mail ---
+mail.yandex.ru,mail.yandex.com##[class*="Orb-Button_view_brand"]
+mail.yandex.ru,mail.yandex.com##[class*="PopupAggressivePromoApps"]
+mail.yandex.ru,mail.yandex.com##[class*="sidebarPromo"]
+mail.yandex.ru,mail.yandex.com##[class*="Orb-Button_view_brand"]
+mail.yandex.ru,mail.yandex.com##[class*="Orb-Button_view_brand"]
