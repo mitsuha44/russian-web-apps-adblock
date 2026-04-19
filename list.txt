@@ -6,13 +6,5 @@
 ! Специальные правила блокировки рекламы, ненужных опций, кнопок "скачать приложение" в Российских вэб-приложениях.
 ! Фокус на работу в браузере Brave
 !
-! --- Yandex ---
-yandex.ru,yandex.com##[class*="AppFact_aliceChat"]
-yandex.ru,yandex.com##[class*="AliceChat_scroll"]
-yandex.ru,yandex.com##[class*="AppLayoutTypeMain"]
-! --- Yandex Mail ---
-mail.yandex.ru,mail.yandex.com##[class*="Orb-Button_view_brand"]
-mail.yandex.ru,mail.yandex.com##[class*="PopupAggressivePromoApps"]
-mail.yandex.ru,mail.yandex.com##[class*="sidebarPromo"]
-mail.yandex.ru,mail.yandex.com##[class*="Orb-Button_view_brand"]
-mail.yandex.ru,mail.yandex.com##[class*="Orb-Button_view_brand"]
+! --- Yandex Weather---
+yandex.ru,yandex.com##[class*="AppLayoutTypeMain_bottomContent"]
