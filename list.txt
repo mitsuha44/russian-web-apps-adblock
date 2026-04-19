@@ -8,3 +8,13 @@
 !
 ! --- Yandex Weather---
 yandex.ru,yandex.com##[class*="AppLayoutTypeMain_bottomContent"]
+yandex.ru##[class*="AppWidgetNowcast_container_logo"]
+yandex.ru##[class*="Tabs_container"]
+yandex.ru##[class*="AppFact_aliceChat"]
+yandex.ru##[class*="AppBlogPreviewCompact_article"]
+yandex.ru##[class*="AppWellBeingCardsMain_report"]
+yandex.ru##[class*="Onboarding_container"]
+yandex.ru##[class*="AppBlogArticlesSuggest_suggest"]
+yandex.ru##[class*="AppWeatherFAQ_section"]
+yandex.ru##[class*="AppAllergyLevels_report"]
+yandex.ru##[class*="AppAllergyDoctors_container"]
