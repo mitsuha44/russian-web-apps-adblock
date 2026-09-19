@@ -8,6 +8,8 @@
 !
 ! --- Yandex Weather---
 yandex.ru,yandex.com##[class*="AppLayoutTypeMain_bottomContent"]
+yandex.ru,yandex.com##[class*="MainPage_blog"]
+yandex.ru,yandex.com##[class*="AppMoneySidebarEcom_wrap"]
 yandex.ru##[class*="AppWidgetNowcast_container_logo"]
 yandex.ru##[class*="Tabs_container"]
 yandex.ru##[class*="AppFact_aliceChat"]
